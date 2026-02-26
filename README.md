@@ -16,6 +16,7 @@ This project demonstrates an automated reconnaissance exercise conducted against
 - **Subdomain Enumeration:** Identified `testaspnet`, `testasp`, and `testhtml5` subdomains.
 - **Technology Fingerprinting:** Target is utilizing **Nginx 1.19.0**, **ASP.NET**, and **AngularJS**.
 - **Email/DNS Logic:** Mapped 5 Google MX records and Gandi.net name servers.
+- * **DNS Misconfiguration Identification:** Discovered `localhost.vulnweb.com`. Identifying internal-facing naming conventions in public DNS records is a high-value OSINT finding, as it suggests potential leaks from development or internal environments that could be leveraged for further exploitation.
 
 ## 📂 Project Artifacts
 - `recon_results.csv`: Full intelligence dataset.
