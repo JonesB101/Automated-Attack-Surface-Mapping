@@ -1,0 +1,54 @@
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-26">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="alt3.aspmx.l.google.com" label="alt3.aspmx.l.google.com">
+        <viz:color r="255" g="0" b="0" a="0" />
+      </node>
+      <node id="vulnweb.com" label="vulnweb.com">
+        <viz:color r="255" g="0" b="0" a="0" />
+      </node>
+      <node id="www.vulnweb.com" label="www.vulnweb.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="ns-11-b.gandi.net" label="ns-11-b.gandi.net">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="ns-105-a.gandi.net" label="ns-105-a.gandi.net">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="aspmx.l.google.com" label="aspmx.l.google.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="localhost.vulnweb.com" label="localhost.vulnweb.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="alt1.aspmx.l.google.com" label="alt1.aspmx.l.google.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="alt2.aspmx.l.google.com" label="alt2.aspmx.l.google.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="alt4.aspmx.l.google.com" label="alt4.aspmx.l.google.com">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+      <node id="ns-140-c.gandi.net" label="ns-140-c.gandi.net">
+        <viz:color r="0" g="0" b="0" a="0" />
+      </node>
+    </nodes>
+    <edges>
+      <edge source="alt3.aspmx.l.google.com" target="vulnweb.com" id="0" />
+      <edge source="vulnweb.com" target="www.vulnweb.com" id="1" />
+      <edge source="vulnweb.com" target="ns-11-b.gandi.net" id="2" />
+      <edge source="vulnweb.com" target="ns-105-a.gandi.net" id="3" />
+      <edge source="vulnweb.com" target="aspmx.l.google.com" id="4" />
+      <edge source="vulnweb.com" target="localhost.vulnweb.com" id="5" />
+      <edge source="vulnweb.com" target="alt1.aspmx.l.google.com" id="6" />
+      <edge source="vulnweb.com" target="alt2.aspmx.l.google.com" id="7" />
+      <edge source="vulnweb.com" target="alt4.aspmx.l.google.com" id="8" />
+      <edge source="vulnweb.com" target="ns-140-c.gandi.net" id="9" />
+    </edges>
+  </graph>
+</gexf>

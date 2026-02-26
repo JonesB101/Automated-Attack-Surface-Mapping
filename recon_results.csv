@@ -1,0 +1,857 @@
+Updated,Type,Module,Source,F/P,Data
+2026-02-26 12:16:58,TARGET_WEB_CONTENT,sfp_spider,http://testaspnet.vulnweb.com/,0,"
+<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"" >
+<HTML>
+	<HEAD>
+		<title>acublog news</title>
+		<META http-equiv=""Content-Type"" content=""text/html; charset=windows-1252"">
+		<meta content=""Microsoft Visual Studio .NET 7.1"" name=""GENERATOR"">
+		<meta content=""C#"" name=""CODE_LANGUAGE"">
+		<meta content=""JavaScript"" name=""vs_defaultClientScript"">
+		<meta content=""http://schemas.microsoft.com/intellisense/ie5"" name=""vs_targetSchema"">
+		<LINK href=""styles.css"" type=""text/css"" rel=""stylesheet"">
+	</HEAD>
+	<body>
+		<form name=""Form1"" method=""post"" action=""default.aspx"" id=""Form1"">
+<div>
+<input type=""hidden"" name=""__EVENTTARGET"" id=""__EVENTTARGET"" value="""" />
+<input type=""hidden"" name=""__EVENTARGUMENT"" id=""__EVENTARGUMENT"" value="""" />
+<input type=""hidden"" name=""__VIEWSTATE"" id=""__VIEWSTATE"" value=""/wEPDwUKLTEwNTI0MjkwNQ9kFgICAQ9kFgICAQ9kFgQCAQ8WBB4EaHJlZgUKbG9naW4uYXNweB4JaW5uZXJodG1sBQVsb2dpbmQCAw8WBB8AZB4HVmlzaWJsZWhkZArjxDMCoNA8/4bzlRmUHIna4LG5"" />
+</div>
+
+<script type=""text/javascr"
+2026-02-26 12:16:57,TARGET_WEB_CONTENT,sfp_spider,http://testasp.vulnweb.com/,0,"
+<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN"" ""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/MainTemplate.dwt.asp"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<!-- InstanceBeginEditable name=""doctitle"" -->
+<title>acuforum forums</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1"">
+<!-- InstanceBeginEditable name=""head"" -->
+<!-- InstanceEndEditable -->
+<link href=""styles.css"" rel=""stylesheet"" type=""text/css"">
+</head>
+<body> 
+<table width=""100%""  border=""0"" cellpadding=""10"" cellspacing=""0""> 
+  <tr bgcolor=""#008F00""> 
+    <td width=""306px""><a href=""https://www.acunetix.com/""><img src=""Images/logo.gif"" width=""306"" height=""38"" border=""0"" alt=""Acunetix website security""></a></td> 
+    <td align=""right"" valign=""middle"" bgcolor=""#008F00"" class=""disclaimer"">TEST and Demonstration site for <a href=""https://www.acunetix.com/vulnerability-scanner/"">Acunetix Web Vulnerability Scanner</a></td> 
+"
+2026-02-26 12:17:01,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/css/style.css,0,".screenshot {
+    border: 1px solid #DADADA;
+}
+
+.shadow
+{
+    box-shadow: 0px 2px 0px 0px #D9D9D9;
+}
+
+.detailsbox {
+    font-family: 'Lora', sans-serif;
+    font-size: 15px;
+    background: #fefefe;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    height: 378px !important;
+}
+
+.detailsboxTitle {
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.carouselView{
+    width: 600px;
+}
+
+.archivebox {
+    background: #eeeeee;
+}
+
+.archiveboxinteresting {
+    background: #fff7ec;
+}
+
+body .modal {
+    width: 400px;
+}"
+2026-02-26 12:16:59,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/app/libs/sessvars.js,0,"/*
+ sessvars ver 1.00
+ - JavaScript based session object
+ copyright 2008 Thomas Frank
+
+ This EULA grants you the following rights:
+
+ Installation and Use. You may install and use an unlimited number of copies of the SOFTWARE PRODUCT.
+
+ Reproduction and Distribution. You may reproduce and distribute an unlimited number of copies of the SOFTWARE PRODUCT either in whole or in part; each copy should include all copyright and trademark notices, and shall be accompanied by a copy of this EULA. Copies of the SOFTWARE PRODUCT may be distributed as a standalone product or included with your own product.
+
+ Commercial Use. You may sell for profit and freely distribute scripts and/or compiled scripts that were created with the SOFTWARE PRODUCT.
+ */
+
+sessvars=function(){
+
+    var x={};
+
+    x.$={
+        prefs:{
+            memLimit:2000,
+            autoFlush:true,
+            crossDomain:true,
+            includeProtos:false,
+            includeFunctions:true
+        },
+        parent:x,
+     "
+2026-02-26 12:17:00,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/app/post.js,0,"// post AngularJs init
+
+// modal login form
+$('#loginFormSubmit').on('click', function(e){
+    // We don't want this to act as a link so cancel the link action
+    e.preventDefault();
+    // Find form and submit it
+    $('#loginForm').submit();
+});
+
+$('#loginFormForgot').on('click', function(e){
+    // We don't want this to act as a link so cancel the link action
+    e.preventDefault();
+
+    // submit password request
+    $.ajax({
+        url: ""/forgotpw"",
+        data: ""<forgot><username>"" + $('#username').attr(""value"") + ""</username></forgot>"",
+        type: 'POST',
+        contentType: ""text/xml"",
+        dataType: ""text"",
+        success : function(data){
+            alert(data + "", your password was changed. You will receive an email with the new password shortly."");
+        },
+        error : function (xhr, ajaxOptions, thrownError){
+            console.log(xhr.status);
+            console.log(thrownError);
+        }
+    });
+});
+
+// when a nav link is clicked make the link"
+2026-02-26 12:17:05,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/AJAX/index.php,0,200
+2026-02-26 12:17:02,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/index.php,0,200
+2026-02-26 12:17:02,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/categories.php,0,200
+2026-02-26 12:16:57,HTTP_CODE,sfp_spider,http://testasp.vulnweb.com/,0,200
+2026-02-26 12:17:03,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/artists.php,0,200
+2026-02-26 12:17:00,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/app/controllers/controllers.js,0,200
+2026-02-26 12:16:58,HTTP_CODE,sfp_spider,http://rest.vulnweb.com/,0,200
+2026-02-26 12:16:59,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/app/app.js,0,200
+2026-02-26 12:16:57,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/,0,200
+2026-02-26 12:17:04,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/guestbook.php,0,200
+2026-02-26 12:17:01,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/css/style.css,0,200
+2026-02-26 12:16:59,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/app/libs/sessvars.js,0,200
+2026-02-26 12:16:56,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/,0,200
+2026-02-26 12:17:04,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/cart.php,0,200
+2026-02-26 12:16:58,HTTP_CODE,sfp_spider,http://testaspnet.vulnweb.com/,0,200
+2026-02-26 12:17:00,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/app/post.js,0,200
+2026-02-26 12:17:21,HTTP_CODE,sfp_spider,www.vulnweb.com,0,200
+2026-02-26 12:16:56,HTTP_CODE,sfp_spider,vulnweb.com,0,200
+2026-02-26 12:17:01,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/static/app/services/itemsService.js,0,200
+2026-02-26 12:17:05,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/login.php,0,200
+2026-02-26 12:17:03,HTTP_CODE,sfp_spider,http://testphp.vulnweb.com/disclaimer.php,0,200
+2026-02-26 12:17:01,HTTP_CODE,sfp_spider,http://testhtml5.vulnweb.com/login,0,405
+2026-02-26 12:17:01,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/login,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2 Final//EN"">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+"
+2026-02-26 12:17:02,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/index.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>Home of Acunetix Art</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</scri"
+2026-02-26 12:16:57,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>Home of Acunetix Art</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</scri"
+2026-02-26 12:17:03,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/artists.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>artists</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</head>
+"
+2026-02-26 12:17:03,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/disclaimer.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>disclaimer</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</hea"
+2026-02-26 12:17:04,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/guestbook.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>guestbook</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</head>
+<body> 
+<div id=""mainLayer"" style"
+2026-02-26 12:17:05,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/login.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>login page</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</hea"
+2026-02-26 12:17:02,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/categories.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>picture categories</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script"
+2026-02-26 12:17:04,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/cart.php,0,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN""
+""http://www.w3.org/TR/html4/loose.dtd"">
+<html><!-- InstanceBegin template=""/Templates/main_dynamic_template.dwt.php"" codeOutsideHTMLIsLocked=""false"" -->
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-2"">
+
+<!-- InstanceBeginEditable name=""document_title_rgn"" -->
+<title>you cart</title>
+<!-- InstanceEndEditable -->
+<link rel=""stylesheet"" href=""style.css"" type=""text/css"">
+<!-- InstanceBeginEditable name=""headers_rgn"" -->
+<!-- here goes headers headers -->
+<!-- InstanceEndEditable -->
+<script language=""JavaScript"" type=""text/JavaScript"">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName==""Netscape"")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+</head>"
+2026-02-26 12:17:21,TARGET_WEB_CONTENT,sfp_spider,www.vulnweb.com,0,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+<title>Acunetix Web Vulnerability Scanner - Test websites</title>
+<style type=""text/css"">
+<!--
+@import url(""style.css"");
+-->
+</style>
+</head>
+<body>
+
+
+<center>
+<br>
+
+<a href='https://www.acunetix.com/'><img src='acunetix-logo.png' border='0' alt=""Acunetix website security""></a><br><br>
+<div>Vulnerable test websites for <a href='https://www.acunetix.com/vulnerability-scanner/'>Acunetix Web Vulnerability Scanner</a>.</div>
+
+<table id=""one-column-emphasis"" summary=""Acunetix test websites"" style=""width:60%"">
+    <colgroup>
+    	<col>
+    </colgroup>
+    <thead>
+    	<tr style=""font-size:14px"">
+        	<th scope=""col""><b>Name</b></th>
+            <th scope=""col""><b>URL</b></th>
+            <th scope=""col""><b>Technologies</b></th>
+			<th scope=""col""><b>Resources</b></th>
+    "
+2026-02-26 12:16:56,TARGET_WEB_CONTENT,sfp_spider,vulnweb.com,0,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+<title>Acunetix Web Vulnerability Scanner - Test websites</title>
+<style type=""text/css"">
+<!--
+@import url(""style.css"");
+-->
+</style>
+</head>
+<body>
+
+
+<center>
+<br>
+
+<a href='https://www.acunetix.com/'><img src='acunetix-logo.png' border='0' alt=""Acunetix website security""></a><br><br>
+<div>Vulnerable test websites for <a href='https://www.acunetix.com/vulnerability-scanner/'>Acunetix Web Vulnerability Scanner</a>.</div>
+
+<table id=""one-column-emphasis"" summary=""Acunetix test websites"" style=""width:60%"">
+    <colgroup>
+    	<col>
+    </colgroup>
+    <thead>
+    	<tr style=""font-size:14px"">
+        	<th scope=""col""><b>Name</b></th>
+            <th scope=""col""><b>URL</b></th>
+            <th scope=""col""><b>Technologies</b></th>
+			<th scope=""col""><b>Resources</b></th>
+    "
+2026-02-26 12:17:05,TARGET_WEB_CONTENT,sfp_spider,http://testphp.vulnweb.com/AJAX/index.php,0,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1"" />
+<title>ajax test</title>
+<link href=""styles.css"" rel=""stylesheet"" type=""text/css"" />
+<script type=""text/javascript"">
+	var httpreq = null;	
+
+	function SetContent(XML) {
+		var items = XML.getElementsByTagName('items').item(0).getElementsByTagName('item');
+		var inner = '<ul>';
+		for(i=0; i<items.length; i++){
+			inner = inner + '<li><a href=""javascript:getInfo(\'' + items[i].attributes.item(0).value + '\', \'' + items[i].attributes.item(1).value + '\')"">' + items[i].firstChild.nodeValue + '</a></li>';
+		}
+		
+		inner = inner + '</ul>'
+		
+		cd = document.getElementById('contentDiv');
+		cd.innerHTML = inner;
+		
+		id = document.getElementById('infoDiv');
+		id.innerHTML = '';
+	}
+
+	function httpCompleted() {
+		if (httpreq.readyState==4 && httpreq.s"
+2026-02-26 12:16:56,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/,0,"<!DOCTYPE html>
+<html lang=""en"" xmlns=""http://www.w3.org/1999/html"" data-ng-app=""itemsApp"">
+<head>
+    <meta charset=""utf-8"">
+    <title>SecurityTweets - HTML5 test website for Acunetix Web Vulnerability Scanner</title>
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <meta name=""description"" content="""">
+    <meta name=""author"" content="""">
+
+    <!-- Le styles -->
+    <link href=""http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css"" rel=""stylesheet"">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href=""/static/css/style.css"" rel=""stylesheet"">
+
+    <link rel=""icon"" type=""image/png"" href=""http://www.acunetix.com/favicon.ico"">
+
+    <style type=""text/css"">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use o"
+2026-02-26 12:16:58,TARGET_WEB_CONTENT,sfp_spider,http://rest.vulnweb.com/,0,"<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=""utf-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+    <meta name=""author"" content=""Omer Citak"">
+
+    <title>Invicti Vulnerable REST API</title>
+
+    <!-- Fonts -->
+    <link href=""https://fonts.googleapis.com/css?family=Nunito:200,600"" rel=""stylesheet"">
+
+    <!-- Styles -->
+    <style>
+        html,
+        body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        ."
+2026-02-26 12:16:58,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""cache-control"": ""private"", ""content-type"": ""text/html; charset=utf-8"", ""server"": ""Microsoft-IIS/8.5"", ""x-aspnet-version"": ""2.0.50727"", ""set-cookie"": ""ASP.NET_SessionId=jzapaxidng4ivy45rj10ltrk; path=/; HttpOnly"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-length"": ""14043""}",0,ASP.NET
+2026-02-26 12:16:58,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""cache-control"": ""private"", ""content-type"": ""text/html"", ""server"": ""Microsoft-IIS/8.5"", ""set-cookie"": ""ASPSESSIONIDCSQTSDDA=CAADMJJDMCEPINDGLNHPKOPD; path=/"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:58 GMT"", ""content-length"": ""3538""}",0,ASP.NET
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Alphabet Inc.
+2026-02-26 12:16:58,WEBSERVER_BANNER,sfp_webserver,"{""date"": ""Thu, 26 Feb 2026 17:16:57 GMT"", ""server"": ""Apache/2.4.25 (Debian)"", ""x-powered-by"": ""PHP/7.1.26"", ""vary"": ""Accept-Encoding"", ""content-encoding"": ""gzip"", ""content-length"": ""1116"", ""keep-alive"": ""timeout=5, max=100"", ""connection"": ""Keep-Alive"", ""content-type"": ""text/html; charset=UTF-8""}",0,Apache/2.4.25 (Debian)
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,ns-105-a.gandi.net,0,Blog hosting services
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,ns-105-a.gandi.net,0,Companies based in Paris
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_ABSTRACT,sfp_duckduckgo,ns-105-a.gandi.net,0,"Gandi SAS is a French company providing domain name registration, web hosting, and related services. The company's main office is in Paris."
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Google Search Category
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_ABSTRACT,sfp_duckduckgo,alt2.aspmx.l.google.com,0,"Google Search is a search engine operated by Google. It allows users to search for information on the Web by entering keywords or phrases. Google Search uses algorithms to analyze and rank websites based on their relevance to the search query. Google Search is the most-visited website in the world. As of 2025, Google Search has a 90% share of the global search engine market. Approximately 24.1% of Google's monthly global traffic comes from the United States, 5.6% from India, 5.5% from Japan, 4.8% from Brazil, and 3.7% from the United Kingdom according to data provided by Similarweb. The same source reports that 58% of users are male and 42% are female. The order of search results returned by Google is based, in part, on a priority rank system called ""PageRank""."
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Google services
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,ns-105-a.gandi.net,0,Information technology companies of France
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Internet search engines
+2026-02-26 12:16:58,WEBSERVER_BANNER,sfp_webserver,"{""cache-control"": ""private"", ""content-type"": ""text/html; charset=utf-8"", ""server"": ""Microsoft-IIS/8.5"", ""x-aspnet-version"": ""2.0.50727"", ""set-cookie"": ""ASP.NET_SessionId=jzapaxidng4ivy45rj10ltrk; path=/; HttpOnly"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-length"": ""14043""}",0,Microsoft-IIS/8.5
+2026-02-26 12:16:58,WEBSERVER_BANNER,sfp_webserver,"{""cache-control"": ""private"", ""content-type"": ""text/html"", ""server"": ""Microsoft-IIS/8.5"", ""set-cookie"": ""ASPSESSIONIDCSQTSDDA=CAADMJJDMCEPINDGLNHPKOPD; path=/"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:58 GMT"", ""content-length"": ""3538""}",0,Microsoft-IIS/8.5
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Multilingual websites
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Music search engines
+2026-02-26 12:17:03,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:05,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:05 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:02,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:03,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:05,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP
+2026-02-26 12:17:03,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:05,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:05 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:16:57,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:56 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:02,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:03,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:05,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:17:04,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+2026-02-26 12:16:58,WEBSERVER_TECHNOLOGY,sfp_webserver,"{""date"": ""Thu, 26 Feb 2026 17:16:57 GMT"", ""server"": ""Apache/2.4.25 (Debian)"", ""x-powered-by"": ""PHP/7.1.26"", ""vary"": ""Accept-Encoding"", ""content-encoding"": ""gzip"", ""content-length"": ""1116"", ""keep-alive"": ""timeout=5, max=100"", ""connection"": ""Keep-Alive"", ""content-type"": ""text/html; charset=UTF-8""}",0,PHP/7.1.26
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,ns-105-a.gandi.net,0,Web hosting
+2026-02-26 12:16:57,AFFILIATE_DESCRIPTION_CATEGORY,sfp_duckduckgo,alt2.aspmx.l.google.com,0,Websites which mirror Wikipedia
+2026-02-26 12:16:55,PROVIDER_MAIL,sfp_dnsraw,vulnweb.com,0,alt1.aspmx.l.google.com
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,alt1.aspmx.l.google.com
+2026-02-26 12:16:55,PROVIDER_MAIL,sfp_dnsraw,vulnweb.com,0,alt2.aspmx.l.google.com
+2026-02-26 12:16:55,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,alt2.aspmx.l.google.com
+2026-02-26 12:16:55,PROVIDER_MAIL,sfp_dnsraw,vulnweb.com,0,alt3.aspmx.l.google.com
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,alt3.aspmx.l.google.com
+2026-02-26 12:16:55,PROVIDER_MAIL,sfp_dnsraw,vulnweb.com,0,alt4.aspmx.l.google.com
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,alt4.aspmx.l.google.com
+2026-02-26 12:17:00,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/app/controllers/controllers.js,0,application/javascript
+2026-02-26 12:16:59,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/app/app.js,0,application/javascript
+2026-02-26 12:16:59,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/app/libs/sessvars.js,0,application/javascript
+2026-02-26 12:17:00,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/app/post.js,0,application/javascript
+2026-02-26 12:17:01,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/app/services/itemsService.js,0,application/javascript
+2026-02-26 12:16:55,PROVIDER_MAIL,sfp_dnsraw,vulnweb.com,0,aspmx.l.google.com
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,aspmx.l.google.com
+2026-02-26 12:16:55,DNS_TEXT,sfp_dnsraw,vulnweb.com,0,google-site-verification=4LQORV-lTi-d4GPxtBEQWmFnwff7UAazQc9gZvHukbw
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://bxss.s3.amazonaws.com/ad.js
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://code.jquery.com/jquery-1.9.1.min.js
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://rest.vulnweb.com/
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://rest.vulnweb.com/,0,http://rest.vulnweb.com/docs/
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://testasp.vulnweb.com/
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/./Login.asp?RetURL=/Default.asp?
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/./Register.asp?RetURL=/Default.asp?
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/Default.asp
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/Images/logo.gif
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/Search.asp
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/Templatize.asp?item=html/about.html
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/showforum.asp?id=0
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/showforum.asp?id=1
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/showforum.asp?id=2
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testasp.vulnweb.com/,0,http://testasp.vulnweb.com/styles.css
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://testaspnet.vulnweb.com/
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/Comments.aspx?id=0
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/Comments.aspx?id=2
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/Comments.aspx?id=3
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/ReadNews.aspx?id=0&NewsAd=ads/def.html
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/ReadNews.aspx?id=2&NewsAd=ads/def.html
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/ReadNews.aspx?id=3&NewsAd=ads/def.html
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/Signup.aspx
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/about.aspx
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/default.aspx
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/images/logo_acunetix.gif
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/images/rss.gif
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/login.aspx
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/rssFeed.aspx
+2026-02-26 12:16:58,LINKED_URL_INTERNAL,sfp_spider,http://testaspnet.vulnweb.com/,0,http://testaspnet.vulnweb.com/styles.css
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://testhtml5.vulnweb.com/
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/login
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/app/app.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/app/controllers/controllers.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/app/libs/sessvars.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/app/post.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/app/services/itemsService.js
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/css/style.css
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://testhtml5.vulnweb.com/static/img/logo2.png
+2026-02-26 12:16:58,LINKED_URL_EXTERNAL,sfp_spider,http://rest.vulnweb.com/,0,http://testinvicti.com/
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://testphp.vulnweb.com/
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/AJAX/index.php
+2026-02-26 12:17:05,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/AJAX/index.php,0,http://testphp.vulnweb.com/AJAX/styles.css
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/artists.php
+2026-02-26 12:17:03,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/artists.php,0,http://testphp.vulnweb.com/artists.php?artist=1
+2026-02-26 12:17:03,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/artists.php,0,http://testphp.vulnweb.com/artists.php?artist=2
+2026-02-26 12:17:03,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/artists.php,0,http://testphp.vulnweb.com/artists.php?artist=3
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/cart.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/categories.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/disclaimer.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/guestbook.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/hpp/
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/images/logo.gif
+2026-02-26 12:17:04,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/guestbook.php,0,http://testphp.vulnweb.com/images/remark.gif
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/index.php
+2026-02-26 12:17:02,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/categories.php,0,http://testphp.vulnweb.com/listproducts.php?cat=1
+2026-02-26 12:17:02,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/categories.php,0,http://testphp.vulnweb.com/listproducts.php?cat=2
+2026-02-26 12:17:02,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/categories.php,0,http://testphp.vulnweb.com/listproducts.php?cat=3
+2026-02-26 12:17:02,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/categories.php,0,http://testphp.vulnweb.com/listproducts.php?cat=4
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/login.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/privacy.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/search.php?test=query
+2026-02-26 12:17:05,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/login.php,0,http://testphp.vulnweb.com/signup.php
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/style.css
+2026-02-26 12:16:57,LINKED_URL_INTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://testphp.vulnweb.com/userinfo.php
+2026-02-26 12:16:55,LINKED_URL_INTERNAL,sfp_spider,vulnweb.com,0,http://vulnweb.com
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,vulnweb.com,0,http://vulnweb.com/
+2026-02-26 12:16:56,LINKED_URL_INTERNAL,sfp_spider,http://vulnweb.com/,0,http://vulnweb.com/acunetix-logo.png
+2026-02-26 12:16:57,LINKED_URL_EXTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://www.acunetix.com
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.acunetix.com/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.acunetix.com/blog/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.acunetix.com/favicon.ico
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.acunetix.com/vulnerability-scanner/crawling-html5-javascript-websites/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.acunetix.com/vulnerability-scanner/html5-website-security/
+2026-02-26 12:16:57,LINKED_URL_EXTERNAL,sfp_spider,http://testphp.vulnweb.com/,0,http://www.eclectasy.com/Fractal-Explorer/index.html
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.facebook.com/Acunetix
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,http://www.twitter.com/acunetix/
+2026-02-26 12:17:21,LINKED_URL_INTERNAL,sfp_spider,www.vulnweb.com,0,http://www.vulnweb.com
+2026-02-26 12:17:21,LINKED_URL_INTERNAL,sfp_spider,www.vulnweb.com,0,http://www.vulnweb.com/
+2026-02-26 12:17:21,LINKED_URL_INTERNAL,sfp_spider,http://www.vulnweb.com/,0,http://www.vulnweb.com/acunetix-logo.png
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://testhtml5.vulnweb.com/,0,https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js
+2026-02-26 12:16:58,LINKED_URL_EXTERNAL,sfp_spider,http://rest.vulnweb.com/,0,"https://fonts.googleapis.com/css?family=Nunito:200,600"
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/blog/articles/network-vulnerability-assessment-gotchas-avoid/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/blog/articles/rest-api-security-testing-acunetix/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/crawling-html5-javascript-websites/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/html5-website-security/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/network-vulnerability-scanner/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/php-security-scanner/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/vulnerability-scanner/sql-injection/
+2026-02-26 12:16:56,LINKED_URL_EXTERNAL,sfp_spider,http://vulnweb.com/,0,https://www.acunetix.com/websitesecurity/sql-injection/
+2026-02-26 12:16:58,WEBSERVER_STRANGEHEADER,sfp_strangeheaders,"{""date"": ""Thu, 26 Feb 2026 17:16:57 GMT"", ""server"": ""Apache/2.4.25 (Debian)"", ""x-powered-by"": ""PHP/7.1.26"", ""vary"": ""Accept-Encoding"", ""content-encoding"": ""gzip"", ""content-length"": ""1116"", ""keep-alive"": ""timeout=5, max=100"", ""connection"": ""Keep-Alive"", ""content-type"": ""text/html; charset=UTF-8""}",0,"keep-alive: timeout=5, max=100"
+2026-02-26 12:17:06,INTERNET_NAME,sfp_dnsbrute,vulnweb.com,0,localhost.vulnweb.com
+2026-02-26 12:17:07,RAW_DNS_RECORDS,sfp_dnsraw,localhost.vulnweb.com,0,"localhost.vulnweb.com. 10800 IN TXT ""v=spf1 ~all"""
+2026-02-26 12:17:03,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:05,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:05 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:04,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:01,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""text/css"", ""content-length"": ""570"", ""last-modified"": ""Fri, 10 May 2013 09:00:28 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cb72c-23a\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:16:59,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""8869"", ""last-modified"": ""Tue, 07 May 2013 10:17:48 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5188d4cc-22a5\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:59 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:17:04,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:16:59,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:58 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""1884"", ""last-modified"": ""Tue, 14 May 2013 09:19:07 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5192018b-75c\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:58 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:17:00,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""3319"", ""last-modified"": ""Fri, 17 May 2013 12:18:21 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5196200d-cf7\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:59 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:16:57,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:56 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:16:57,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:56 GMT"", ""content-type"": ""text/html; charset=utf-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""access-control-allow-origin"": ""*"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:00,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""2582"", ""last-modified"": ""Fri, 10 May 2013 10:11:54 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cc7ea-a16\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:16:56,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:55 GMT"", ""content-type"": ""text/html"", ""last-modified"": ""Tue, 28 Jul 2020 09:20:49 GMT"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""etag"": ""W/\""5f1fedf1-fb2\"""", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:22,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:21 GMT"", ""content-type"": ""text/html"", ""last-modified"": ""Tue, 28 Jul 2020 09:20:49 GMT"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""etag"": ""W/\""5f1fedf1-fb2\"""", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:02,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:02,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=utf-8"", ""content-length"": ""178"", ""connection"": ""keep-alive"", ""allow"": ""POST, OPTIONS""}",0,nginx/1.19.0
+2026-02-26 12:17:03,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:05,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:17:01,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""723"", ""last-modified"": ""Fri, 10 May 2013 09:00:28 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cb72c-2d3\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}",0,nginx/1.19.0
+2026-02-26 12:17:04,WEBSERVER_BANNER,sfp_webserver,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}",0,nginx/1.19.0
+2026-02-26 12:16:55,PROVIDER_DNS,sfp_dnsraw,vulnweb.com,0,ns-105-a.gandi.net
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,ns-105-a.gandi.net
+2026-02-26 12:16:55,PROVIDER_DNS,sfp_dnsraw,vulnweb.com,0,ns-11-b.gandi.net
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,ns-11-b.gandi.net
+2026-02-26 12:16:55,PROVIDER_DNS,sfp_dnsraw,vulnweb.com,0,ns-140-c.gandi.net
+2026-02-26 12:16:56,AFFILIATE_INTERNET_NAME,sfp_dnsraw,vulnweb.com,0,ns-140-c.gandi.net
+2026-02-26 12:17:01,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/static/css/style.css,0,text/css
+2026-02-26 12:16:57,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testasp.vulnweb.com/,0,text/html
+2026-02-26 12:17:21,TARGET_WEB_CONTENT_TYPE,sfp_spider,www.vulnweb.com,0,text/html
+2026-02-26 12:16:56,TARGET_WEB_CONTENT_TYPE,sfp_spider,vulnweb.com,0,text/html
+2026-02-26 12:17:05,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/AJAX/index.php,0,text/html;charset=utf-8
+2026-02-26 12:17:02,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/index.php,0,text/html;charset=utf-8
+2026-02-26 12:17:02,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/categories.php,0,text/html;charset=utf-8
+2026-02-26 12:17:03,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/artists.php,0,text/html;charset=utf-8
+2026-02-26 12:16:58,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://rest.vulnweb.com/,0,text/html;charset=utf-8
+2026-02-26 12:16:57,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/,0,text/html;charset=utf-8
+2026-02-26 12:17:04,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/guestbook.php,0,text/html;charset=utf-8
+2026-02-26 12:16:56,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/,0,text/html;charset=utf-8
+2026-02-26 12:17:04,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/cart.php,0,text/html;charset=utf-8
+2026-02-26 12:16:58,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testaspnet.vulnweb.com/,0,text/html;charset=utf-8
+2026-02-26 12:17:01,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testhtml5.vulnweb.com/login,0,text/html;charset=utf-8
+2026-02-26 12:17:05,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/login.php,0,text/html;charset=utf-8
+2026-02-26 12:17:03,TARGET_WEB_CONTENT_TYPE,sfp_spider,http://testphp.vulnweb.com/disclaimer.php,0,text/html;charset=utf-8
+2026-02-26 12:17:07,DNS_TEXT,sfp_dnsraw,localhost.vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:17:07,DNS_SPF,sfp_dnsraw,localhost.vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:17:21,DNS_TEXT,sfp_dnsraw,www.vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:17:21,DNS_SPF,sfp_dnsraw,www.vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:16:55,DNS_TEXT,sfp_dnsraw,vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:16:55,DNS_SPF,sfp_dnsraw,vulnweb.com,0,v=spf1 ~all
+2026-02-26 12:16:54,INTERNET_NAME,SpiderFoot UI,vulnweb.com,0,vulnweb.com
+2026-02-26 12:16:54,DOMAIN_NAME,SpiderFoot UI,vulnweb.com,0,vulnweb.com
+2026-02-26 12:16:55,RAW_DNS_RECORDS,sfp_dnsraw,vulnweb.com,0,"vulnweb.com. 10800 IN MX 10 alt2.aspmx.l.google.com.
+vulnweb.com. 10800 IN MX 10 alt3.aspmx.l.google.com.
+vulnweb.com. 10800 IN MX 10 alt1.aspmx.l.google.com.
+vulnweb.com. 10800 IN MX 10 aspmx.l.google.com.
+vulnweb.com. 10800 IN MX 10 alt4.aspmx.l.google.com."
+2026-02-26 12:16:55,RAW_DNS_RECORDS,sfp_dnsraw,vulnweb.com,0,"vulnweb.com. 10800 IN NS ns-105-a.gandi.net.
+vulnweb.com. 10800 IN NS ns-140-c.gandi.net.
+vulnweb.com. 10800 IN NS ns-11-b.gandi.net."
+2026-02-26 12:16:55,RAW_DNS_RECORDS,sfp_dnsraw,vulnweb.com,0,"vulnweb.com. 10800 IN TXT ""google-site-verification=4LQORV-lTi-d4GPxtBEQWmFnwff7UAazQc9gZvHukbw""
+vulnweb.com. 10800 IN TXT ""v=spf1 ~all"""
+2026-02-26 12:17:20,INTERNET_NAME,sfp_dnsbrute,vulnweb.com,0,www.vulnweb.com
+2026-02-26 12:17:21,RAW_DNS_RECORDS,sfp_dnsraw,www.vulnweb.com,0,"www.vulnweb.com. 10800 IN TXT ""v=spf1 ~all"""
+2026-02-26 12:16:58,WEBSERVER_STRANGEHEADER,sfp_strangeheaders,"{""cache-control"": ""private"", ""content-type"": ""text/html; charset=utf-8"", ""server"": ""Microsoft-IIS/8.5"", ""x-aspnet-version"": ""2.0.50727"", ""set-cookie"": ""ASP.NET_SessionId=jzapaxidng4ivy45rj10ltrk; path=/; HttpOnly"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-length"": ""14043""}",0,x-aspnet-version: 2.0.50727
+2026-02-26 12:16:57,WEBSERVER_HTTPHEADERS,sfp_spider,http://testasp.vulnweb.com/,0,"{""cache-control"": ""private"", ""content-type"": ""text/html"", ""server"": ""Microsoft-IIS/8.5"", ""set-cookie"": ""ASPSESSIONIDCSQTSDDA=CAADMJJDMCEPINDGLNHPKOPD; path=/"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:58 GMT"", ""content-length"": ""3538""}"
+2026-02-26 12:16:58,WEBSERVER_HTTPHEADERS,sfp_spider,http://testaspnet.vulnweb.com/,0,"{""cache-control"": ""private"", ""content-type"": ""text/html; charset=utf-8"", ""server"": ""Microsoft-IIS/8.5"", ""x-aspnet-version"": ""2.0.50727"", ""set-cookie"": ""ASP.NET_SessionId=jzapaxidng4ivy45rj10ltrk; path=/; HttpOnly"", ""x-powered-by"": ""ASP.NET"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-length"": ""14043""}"
+2026-02-26 12:16:58,WEBSERVER_HTTPHEADERS,sfp_spider,http://rest.vulnweb.com/,0,"{""date"": ""Thu, 26 Feb 2026 17:16:57 GMT"", ""server"": ""Apache/2.4.25 (Debian)"", ""x-powered-by"": ""PHP/7.1.26"", ""vary"": ""Accept-Encoding"", ""content-encoding"": ""gzip"", ""content-length"": ""1116"", ""keep-alive"": ""timeout=5, max=100"", ""connection"": ""Keep-Alive"", ""content-type"": ""text/html; charset=UTF-8""}"
+2026-02-26 12:16:56,WEBSERVER_HTTPHEADERS,sfp_spider,vulnweb.com,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:55 GMT"", ""content-type"": ""text/html"", ""last-modified"": ""Tue, 28 Jul 2020 09:20:49 GMT"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""etag"": ""W/\""5f1fedf1-fb2\"""", ""content-encoding"": ""gzip""}"
+2026-02-26 12:16:57,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:56 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:16:56,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:56 GMT"", ""content-type"": ""text/html; charset=utf-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""access-control-allow-origin"": ""*"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:16:59,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/app/app.js,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:58 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""1884"", ""last-modified"": ""Tue, 14 May 2013 09:19:07 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5192018b-75c\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:58 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:17:00,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/app/post.js,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""3319"", ""last-modified"": ""Fri, 17 May 2013 12:18:21 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5196200d-cf7\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:59 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:16:59,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/app/libs/sessvars.js,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:16:59 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""8869"", ""last-modified"": ""Tue, 07 May 2013 10:17:48 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""5188d4cc-22a5\"""", ""expires"": ""Sat, 28 Mar 2026 17:16:59 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:17:00,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/app/controllers/controllers.js,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""2582"", ""last-modified"": ""Fri, 10 May 2013 10:11:54 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cc7ea-a16\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:17:01,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/app/services/itemsService.js,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""application/javascript"", ""content-length"": ""723"", ""last-modified"": ""Fri, 10 May 2013 09:00:28 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cb72c-2d3\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:17:01,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/static/css/style.css,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:00 GMT"", ""content-type"": ""text/css"", ""content-length"": ""570"", ""last-modified"": ""Fri, 10 May 2013 09:00:28 GMT"", ""connection"": ""keep-alive"", ""etag"": ""\""518cb72c-23a\"""", ""expires"": ""Sat, 28 Mar 2026 17:17:00 GMT"", ""cache-control"": ""max-age=2592000"", ""accept-ranges"": ""bytes""}"
+2026-02-26 12:17:02,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/index.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:01,WEBSERVER_HTTPHEADERS,sfp_spider,http://testhtml5.vulnweb.com/login,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:01 GMT"", ""content-type"": ""text/html; charset=utf-8"", ""content-length"": ""178"", ""connection"": ""keep-alive"", ""allow"": ""POST, OPTIONS""}"
+2026-02-26 12:17:02,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/categories.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:03,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/artists.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:02 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:04,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/cart.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:03,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/disclaimer.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:03 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:05,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/AJAX/index.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:04,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/guestbook.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:04 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:05,WEBSERVER_HTTPHEADERS,sfp_spider,http://testphp.vulnweb.com/login.php,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:05 GMT"", ""content-type"": ""text/html; charset=UTF-8"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""x-powered-by"": ""PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1"", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:21,WEBSERVER_HTTPHEADERS,sfp_spider,www.vulnweb.com,0,"{""server"": ""nginx/1.19.0"", ""date"": ""Thu, 26 Feb 2026 17:17:21 GMT"", ""content-type"": ""text/html"", ""last-modified"": ""Tue, 28 Jul 2020 09:20:49 GMT"", ""transfer-encoding"": ""chunked"", ""connection"": ""keep-alive"", ""etag"": ""W/\""5f1fedf1-fb2\"""", ""content-encoding"": ""gzip""}"
+2026-02-26 12:17:00,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/app/controllers/controllers.js,0,"﻿app.controller('PopularItemsController', function ($scope, $routeParams, itemsService) {
+    $scope.ctrlName = ""popular"";
+
+    $scope.showLoader = showLoader;
+    $scope.hideLoader = hideLoader;
+    $scope.showLoader();
+
+    $scope.page = ($routeParams.page) ? parseInt($routeParams.page) : 0;
+    $scope.pageStr = ($routeParams.page) ? $routeParams.page : ""0"";
+
+    $scope.filter = ($routeParams.filter) ? $routeParams.filter : """";
+
+    if ($scope.filter) {
+        itemsService.getArchiveItems(function(data, status) {
+
+            if (status < 200 || status >= 300)
+                return;
+
+            $scope.items = data;
+            $scope.hideLoader();
+        });
+    }
+    else {
+        itemsService.getPopularItems($scope.page, function(data, status) {
+
+            if (status < 200 || status >= 300)
+                return;
+
+            $scope.items = data;
+            $scope.hideLoader();
+        });
+    }
+
+    $scope.like = function(id) {
+        itemsService.like(id, func"
+2026-02-26 12:17:01,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/app/services/itemsService.js,0,"﻿app.service('itemsService', function ($http) {
+    var items_per_page = 5;
+
+    var items = [];
+
+    this.getPopularItems = function (page, callback) {
+        var offset = page * items_per_page;
+
+        $http.get('/ajax/popular?offset=' + offset).success(callback);
+    };
+
+    this.getLatestItems = function (page, callback) {
+        var offset = page * items_per_page;
+
+        $http.get('/ajax/latest?offset=' + offset).success(callback);
+    };
+
+    this.getArchiveItems = function (callback) {
+        $http.get('/ajax/archive').success(callback);
+    };
+
+    this.like = function (id, callback) {
+        $http.get('/ajax/like?id=' + id).success(callback).error(callback);
+    };
+
+});
+"
+2026-02-26 12:16:59,TARGET_WEB_CONTENT,sfp_spider,http://testhtml5.vulnweb.com/static/app/app.js,0,"﻿function getPartialUrl(name) {
+    return ""/static/app/partials/"" + name + "".html"";
+}
+
+// app initialization
+var app = angular.module('itemsApp', []);
+
+//This configures the routes and associates each route with a view and a controller
+app.config(function ($routeProvider) {
+    $routeProvider
+        .when('/popular',
+        {
+            controller: 'PopularItemsController',
+            templateUrl: getPartialUrl('popular')
+        })
+        .when('/popular/page/:page',
+        {
+            controller: 'PopularItemsController',
+            templateUrl: getPartialUrl('popular')
+        })
+        .when('/redir',
+        {
+            controller: 'SimpleController',
+            templateUrl: getPartialUrl('redir')
+        })
+        .when('/all/filter/:filter',
+        {
+            controller: 'PopularItemsController',
+            templateUrl: getPartialUrl('popular')
+        })
+        .when('/latest',
+        {
+            controller: 'LatestItemsController',
+            "
